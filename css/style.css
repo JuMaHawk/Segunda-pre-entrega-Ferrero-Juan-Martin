@@ -4,7 +4,7 @@ body {
 
 
 .logo {
-    width: 5rem;
+    width: 6rem;
 }
 
 .navegador {
@@ -20,4 +20,46 @@ body {
 
 section img {
     height: 20%rem;
+}
+
+.recuadro{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: gray;
+    margin: 10px;
+}
+.recuadro label{
+    text-transform: uppercase;
+    margin: 10px 0px 3px 0px;
+}
+
+.recuadro input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 75%;
+}
+
+#legend{
+    margin-left: 10px;
+ }
+
+.colorText{
+    color: white;
+}
+
+.letra{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.borderNav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.margenesCarousel{
+    padding-left: 2%;
+    padding-right:2%;
 }
