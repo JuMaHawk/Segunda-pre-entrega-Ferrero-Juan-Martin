@@ -27,8 +27,8 @@ section img {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    background-color: gray;
-    margin: 10px;
+    background-color: rgba(128,128,128, 0.8);
+    
 }
 .recuadro label{
     text-transform: uppercase;
@@ -62,4 +62,30 @@ section img {
 .margenesCarousel{
     padding-left: 2%;
     padding-right:2%;
+}
+
+
+fieldset label{
+    font-weight: bold;
+}
+#legend{
+    color: white;
+    text-shadow: 1.5px 1.5px 3px black;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.imgFondo{
+    background-image: url(../img/fondoForm.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.fieldset{
+    border: 5px solid black;
+    box-shadow: 3px 3px 2px;
 }
